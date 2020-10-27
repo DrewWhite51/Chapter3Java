@@ -31,6 +31,7 @@ public class BodyMassIndex {
         
         System.out.println("Your BMI is " + BMI);
         
+        // if statement determining if person is healthy weight
         if (BMI > 25) {
             System.out.println("You are overweight. Lose some pounds fatty.");
         } else if (BMI < 18.5) {
@@ -43,6 +44,7 @@ public class BodyMassIndex {
     
     public static void main(String[] args) {
 
+        // Calling method
         determineBMI();
     }
     

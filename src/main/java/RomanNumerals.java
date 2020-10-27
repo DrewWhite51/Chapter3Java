@@ -21,6 +21,8 @@ public class RomanNumerals {
             System.out.println("Enter a number from 1 to 10 that you want to convert to a roman numeral:");
             int userInput = keyboard.nextInt();
             
+            
+            // if statement determining if number is valdi 
             if (userInput > 10) {
                 System.out.println("Enter a number between one and ten.");
             } else if (userInput < 1) {
@@ -28,6 +30,7 @@ public class RomanNumerals {
             }
             
 
+            // Switch statement determining with roman numeral to display
             switch (userInput) {
                 case 1:
                     System.out.println("I");
