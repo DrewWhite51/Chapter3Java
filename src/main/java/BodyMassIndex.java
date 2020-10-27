@@ -18,11 +18,11 @@ public class BodyMassIndex {
         
         // Gathering input from user
         System.out.println("Enter your weight. ");
-        double weight = keyboard.nextInt();
+        double weight = keyboard.nextDouble();
         System.out.println("Enter many feet tall are you?. ");
-        double heightFeet = keyboard.nextInt();
+        double heightFeet = keyboard.nextDouble();
         System.out.println("Enter many inches tall are you?. ");
-        double heightInches = keyboard.nextInt();
+        double heightInches = keyboard.nextDouble();
         
         // Equations to calc BMI
         double heightFeetToInches = heightFeet * 12;
