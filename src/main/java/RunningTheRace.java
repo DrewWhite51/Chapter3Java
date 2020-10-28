@@ -8,7 +8,7 @@
  *
  * @author Drew
  */
-public class ShippingCharges {
+public class RunningTheRace {
     
     public static void main(String[] args) {
         
