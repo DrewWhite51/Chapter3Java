@@ -20,13 +20,14 @@ public class SoftwareSales {
         System.out.println("Enter the amount of sales");
         double numberOfSales = keyboard.nextDouble();
         
+        //Calculations
         double calcMoney = numberOfSales * 99;
         double below20Disc = calcMoney - (calcMoney * .2);
         double below50Disc = calcMoney - (calcMoney * .3);
         double below100Disc = calcMoney - (calcMoney * .4);
         double over100Disc = calcMoney - (calcMoney * .5);
         
-        
+        // Determines the discount
         if ((numberOfSales >= 10) & (numberOfSales < 20)) {
             System.out.println("$" + below20Disc);
         } if ((numberOfSales >= 20) & (numberOfSales < 50)) {

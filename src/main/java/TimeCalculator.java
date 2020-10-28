@@ -25,6 +25,8 @@ public class TimeCalculator {
         double secondsToHours = userSeconds / 3600;
         double secondsToDays = userSeconds / 86400;
         
+        
+        // Determines how to display seconds
         if (userSeconds < 3600){
             System.out.println(secondsToMinutes + " minutes.");
         } else if ((userSeconds >= 3600) & (userSeconds < 86400)) {
